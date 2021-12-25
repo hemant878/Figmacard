@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Source+Sans+Pro&display=swap');
+.body{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.blog{
+    margin: 50px;
+}
+.aimg{
+    display: flex;
+}
+
+
+.title{
+    text-align: initial;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.profile img{
+     width: 35px;
+     height: 35px;
+    border-radius: 100%;
+}
+.mainrow{
+    display: flex;
+}
+.profile{
+    text-align: initial;
+    width: 100%;
+    display: flex;
+    /* display: inherit; */
+}
+.name{
+    margin-left: 9px;
+    margin-top: 5px;
+}
+.desc{
+    text-align: initial;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.subtitle{
+    text-align: initial;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(82, 79, 79);
+    display: flex;
+}
+
+
+
+
+
+
+
+/* Navbar css */
+.nav{
+    display: flex;
+    box-shadow: 2px -10px 20px 2px;
+    height: 77px;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+
+}
+.discovery{
+    width: 33%;
+}
+.invited{
+    width: 33%;
+
+}
+.support{
+    width: 33%;
+
+}
+.discovery:hover{
+   
+        width: 33%;
+        border-bottom: 4px solid #5BC2A8;
+        height: 75px;
+        color: #5BC2A8;
+    
+}
+.support:hover{
+   
+    width: 33%;
+    border-bottom: 4px solid #5BC2A8;
+    height: 75px;
+    color: #5BC2A8;
+
+}
+.invited:hover{
+   
+    width: 33%;
+    border-bottom: 4px solid #5BC2A8;
+    height: 75px;
+    color: #5BC2A8;
+
+}
+
+.discovery h1{
+    margin-block-end: 0px;
+    margin-block-start: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.discovery p{
+    margin-block-start: 0px;
+}
+
+.invited h1{
+    margin-block-end: 0px;
+    margin-block-start: 5px;
+}
+
+.invited p{
+    margin-block-start: 0px;
+}
+
+.support h1{
+    margin-block-end: 0px;
+    margin-block-start: 5px;
+}
+
+.support p{
+    margin-block-start: 0px;
+}
+.btn{
+    width: 20%;
+}
+.btn1{
+    background-color: white;
+    border: 1px solid #5BC2A8;
+    color:#5BC2A8 ;
+    font-weight: 600;
+    height: 30px;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 5px 16px 5px 16px;
+}
+
+.btn2{
+    background-color: #5BC2A8;
+    border: 1px solid #5BC2A8;
+    color: white;
+    height: 30px;
+    margin: 5px;
+    border-radius: 7%;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 5px 16px 5px 16px;
+}
+.card{
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 47px 164px 49px 164px;
+    box-shadow: 0px 6px 28px -7px;
+    background-color: white;
+}
+.subhead{
+    display: flex;
+    margin-left: 10%;
+}
+.subpara{
+    line-height: 25px;
+}
+.subhead button{
+    background-color: rgb(91, 194, 168);
+    width: 15%;
+    height: 34px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5%;
+}
+.para{
+    display: flex;
+    text-align: initial;
+}
+.pack{
+    width: 71%;
+    
+}
+.pack h2{
+    margin-block-start: 0px;
+    font-size: 15px;
+}
+.pack h3{
+    margin-block-start: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.pack p{
+    font-size: 14px;
+}
+.icon{
+    width: 75px;
+    margin-left: 27px;
+}
+.para1{
+    display: flex;
+    text-align: initial;
+    margin-top: 30px;
+
+}
+.head{
+    margin-left: 10%;
+    display: flex;
+    margin-top: 7%;
+}
+.heading{
+    margin-block-start: 0px;
+    font-size: 17px;
+    margin-right: 20px;
+}
+.head p{
+    margin-block-start: 1px;
+}
+.pp{
+    padding-left: 9px;
+    padding-right: 26px;
+
+}
+.image{
+    width: 40%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.info{
+    width: 60%;
+}
+
+.pp button{
+    background-color: rgb(91, 194, 168);
+    width: 80px;
+    height: 34px;
+    padding: 0px 0px;
+    margin-block-start: 11px;
+}
+.bbtn{
+    margin-top: -61px;
+    margin-left: 46%;
+
+}
+.bbtn button{
+    border: 2px solid #5BC2A8;
+    color: #5BC2A8;
+    padding: 7px 16px 6px 17px;
+    background-color: white;
+    font-size: 15px;
+    box-shadow: 1px 3px 15px -3px black;
+}
+
+.bbtn i{
+    margin-right: 12px;
+}
+
+.bbtn button:hover{
+    background-color: #5BC2A8;
+    color: white;
+}
